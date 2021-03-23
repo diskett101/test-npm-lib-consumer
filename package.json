@@ -1,0 +1,29 @@
+{
+  "name": "test-npm-lib-consumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf ./dist && tsc",
+    "local": "tsnd --respawn src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diskett101/test-npm-lib-consumer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diskett101/test-npm-lib-consumer/issues"
+  },
+  "homepage": "https://github.com/diskett101/test-npm-lib-consumer#readme",
+  "dependencies": {
+    "mce123-test": "^1.0.1"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.2.3"
+  }
+}
